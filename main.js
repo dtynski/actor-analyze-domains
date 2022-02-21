@@ -21,11 +21,11 @@ const DEFAULT_RETRY_COUNT = 1;
  * @return {String}
  */
 const normalizeUrl = (url) => {
-    const nurl = utils.normalizeUrl(url);
-    if (nurl) return nurl;
+    //const nurl = utils.normalizeUrl(url);
+    //if (nurl) return nurl;
 
-    const index = url.indexOf('#');
-    if (index > 0) return url.substring(0, index);
+    //const index = url.indexOf('#');
+    //if (index > 0) return url.substring(0, index);
 
     return url;
 };
